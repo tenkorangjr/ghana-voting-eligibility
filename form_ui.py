@@ -93,5 +93,8 @@ class MyUI:
                 else:
                     messagebox.showinfo(message=f"{name.title()} is eligible to vote.")
 
+            else:
+                messagebox.showwarning(message=f"Unfortunately, {name.title()} is not eligible to vote.")
+
 
 
